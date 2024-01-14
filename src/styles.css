@@ -1,9 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
 :root {
 
     --backgroud: #222222;
     --text-color: #ffffff;
     --gold: #FFC700;
+    --footer-text: var(--text-color);
 }
 
 * {
@@ -14,14 +14,18 @@
 html {
     height: 100vh;
 }
+div {
+    display: flex;
+}
 
 body {
     background-color: var(--backgroud);
     color: var(--text-color);
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 h1 {
