@@ -1,1 +1,0 @@
-:root{--backgroud: #222222;--text-color: #ffffff;--gold: #FFC700}*{margin:0;padding:0}html{height:100vh}body{background-color:var(--backgroud);color:var(--text-color);min-height:100vh;display:flex;justify-content:center;align-items:center}h1{color:var(--gold);font-family:Julius Sans One;font-size:128px;font-style:normal;font-weight:400;line-height:normal}
